@@ -93,7 +93,13 @@ python app.py
 
 
 ---
+## 📺 Live Demo
 
+Watch the live demo here: [Click to Watch](https://your-video-link.com)
+
+> 🎥 This demo showcases the core features and functionality of the project.
+ 
+--- 
 ## 👩‍💻 Author
 
 **Taiyaba Khan**  
