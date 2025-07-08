@@ -55,14 +55,11 @@ pip install tensorflow tensorflow-datasets matplotlib
 
 ├── app.py # Flask web server\
 ├── static # Static files (CSS, JS, icons, images)\
-   └── style.css\
-   └── style.css\
 ├── templates # HTML templates\
- └── index.html # Upload form\
 ├── screenshots # Example outputs (see below) \
 ├── cat_dog_tfds_classifier.ipynb # CNN training notebook \
 ├── README.md # Project documentation  \
-└── venv # Python virtual environment (excluded from Git)
+ ├── venv # Python virtual environment (excluded from Git)
 
 ---
 
