@@ -74,8 +74,6 @@ python app.py
 
 Here’s how the web app looks when making a prediction:
 
-![Web App Prediction](images/webapp_prediction.png)
-
 ![Home Page](https://github.com/Taiyabakhan/ImageClassificationUsingCNN/blob/main/Screenshots/Screenshot%20(303).png)
 
 ## Prediction Example
