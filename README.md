@@ -19,7 +19,6 @@ The CNN architecture includes:
 
 - Image classification between **cats** and **dogs**
 - Web app built with Flask
-- Upload & predict images in real-time
 - TensorFlow model trained using **TFDS** (Cats vs Dogs)
 ---
 
@@ -32,10 +31,6 @@ import tensorflow_datasets as tfds
 
 (ds_train, ds_val), ds_info = tfds.load(
     'cats_vs_dogs',
-    split=['train[:80%]', 'train[80%:]'],
-    shuffle_files=True,
-    as_supervised=True,
-    with_info=True,
 )
 ```
 ---
@@ -50,17 +45,6 @@ Install the required packages:
 ```
 pip install tensorflow tensorflow-datasets matplotlib
 ```
----
-## ⚙️ Repository Structure
-
-├── app.py # Flask web server\
-├── static # Static files (CSS, JS, icons, images)\
-├── templates # HTML templates\
-├── screenshots # Example outputs (see below) \
-├── cat_dog_tfds_classifier.ipynb # CNN training notebook \
-├── README.md # Project documentation  \
- ├── venv # Python virtual environment (excluded from Git)
-
 ---
 
 ## 🚀 How to Run Locally
@@ -77,22 +61,31 @@ python app.py
 ```
 
 ---
+## 📈 Model Performance
 
-## 📸Screenshots 
+### ✅ Accuracy over Epochs
+![Model Accuracy](https://github.com/Taiyabakhan/ImageClassificationUsingCNN/blob/main/Screenshots/Screenshot%202025-07-09%20094936.png)
 
-## Home Page 
+### 📉 Loss over Epochs
+![Model Loss](https://github.com/Taiyabakhan/ImageClassificationUsingCNN/blob/main/Screenshots/Screenshot%202025-07-09%20095023.png)
+
+
+## 🖼️ Live Web App Prediction Example
+
+Here’s how the web app looks when making a prediction:
+
+![Web App Prediction](images/webapp_prediction.png)
+
 ![Home Page](https://github.com/Taiyabakhan/ImageClassificationUsingCNN/blob/main/Screenshots/Screenshot%20(303).png)
 
 ## Prediction Example
 ![Prediction Example](https://github.com/Taiyabakhan/ImageClassificationUsingCNN/blob/main/Screenshots/Screenshot%20(304).png)
 ![Prediction Example](https://github.com/Taiyabakhan/ImageClassificationUsingCNN/blob/main/Screenshots/Screenshot%20(305).png)
 
-
-
 ---
 ## 📺 Live Demo
 
-Watch the live demo here: [Click to Watch](https://youtu.be/aTTiT15X3fM)
+Watch the live demo here: [Click to Watch](https://your-video-link.com)
 
 > 🎥 This demo showcases the core features and functionality of the project.
  
